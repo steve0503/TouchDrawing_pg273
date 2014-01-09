@@ -21,6 +21,7 @@
 		00B30ECA187E6E8E00379CFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B30EAC187E6E8E00379CFD /* UIKit.framework */; };
 		00B30ED2187E6E8E00379CFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B30ED0187E6E8E00379CFD /* InfoPlist.strings */; };
 		00B30ED4187E6E8E00379CFD /* TouchDrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B30ED3187E6E8E00379CFD /* TouchDrawingTests.m */; };
+		00B30EDF187E6EB700379CFD /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B30EDE187E6EB700379CFD /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00B30ECF187E6E8E00379CFD /* TouchDrawingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchDrawingTests-Info.plist"; sourceTree = "<group>"; };
 		00B30ED1187E6E8E00379CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B30ED3187E6E8E00379CFD /* TouchDrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchDrawingTests.m; sourceTree = "<group>"; };
+		00B30EDD187E6EB700379CFD /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		00B30EDE187E6EB700379CFD /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				00B30EBA187E6E8E00379CFD /* Main.storyboard */,
 				00B30EBD187E6E8E00379CFD /* ViewController.h */,
 				00B30EBE187E6E8E00379CFD /* ViewController.m */,
+				00B30EDD187E6EB700379CFD /* DrawingView.h */,
+				00B30EDE187E6EB700379CFD /* DrawingView.m */,
 				00B30EC0187E6E8E00379CFD /* Images.xcassets */,
 				00B30EAF187E6E8E00379CFD /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				00B30EBF187E6E8E00379CFD /* ViewController.m in Sources */,
 				00B30EB9187E6E8E00379CFD /* AppDelegate.m in Sources */,
 				00B30EB5187E6E8E00379CFD /* main.m in Sources */,
+				00B30EDF187E6EB700379CFD /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
